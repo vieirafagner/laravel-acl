@@ -13,6 +13,8 @@
 @stop
 <form role="form" action="{{route('usuarioscad')}}" class="modal fade" id="janela" method="POST">
     @csrf
+
+
     <div class="modal-dialog">
     <div class="modal-content">
     <div class="modal-header">

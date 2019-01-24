@@ -40,4 +40,13 @@ class UsuarioController extends Controller
         $user->save();
         return redirect()->route('login');
     }
+
+    public function chamada(){
+        return view('professor.chamada');
+    }
+
+    public function oferta(){
+
+        return view('professor.oferta');
+    }
 }

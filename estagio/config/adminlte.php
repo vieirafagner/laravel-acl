@@ -124,7 +124,7 @@ return [
 
         [
             'text'    => 'Instituição',
-            'icon'    => 'home',
+            'icon'    => 'hospital-o',
             'can' => 'Coordenador',
             'submenu' => [
                 [
@@ -149,13 +149,13 @@ return [
             'submenu' => [
                 [
                     'text' => 'Ofertar Vaga de Estágio',
-                    'url'  => 'register',
+                    'url'  => 'oferta',
                     'icon' => 'bullhorn'
                 ],
 
                 [
                     'text' => 'Realizar Chamada',
-                    'url'  => '#',
+                    'url'  => 'chamada',
                     'icon' => 'chevron-circle-down'
                 ],
 
