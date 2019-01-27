@@ -28,8 +28,8 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    public function setor(){
+    public function setors(){
 
-        return $this->belongsToMany('App\Setor','setor_user');
+        return $this->belongsToMany(Setor::class);
     }
 }

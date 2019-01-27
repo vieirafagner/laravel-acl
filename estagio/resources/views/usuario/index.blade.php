@@ -23,7 +23,7 @@
 
                             <tr>
                                 <td class="text-center">{{$user->id}}</td>
-                                <td class="text-center">{{$user->nome}}</td>
+                                <td class="text-center">{{$user->name}}</td>
                                 <td class="text-center">{{$user->email}}</td>
 
 

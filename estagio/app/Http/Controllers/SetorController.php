@@ -13,8 +13,10 @@ class SetorController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
+
     {
-        return view('Setor.index');
+        $a_setores = Setor::all();
+        return view('Setor.index',compact('a_setores'));
     }
 
     /**

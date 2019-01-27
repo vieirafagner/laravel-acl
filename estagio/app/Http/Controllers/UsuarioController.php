@@ -15,17 +15,18 @@ class UsuarioController extends Controller
 
         $a_user = User::where('level','Professor')->get();
 
-        return view('usuario.indexProfessor',compact('a_user'));
+        return view('usuario.index',compact('a_user'));
     }
 
     public function indexE(){
 
         $a_user = User::where('level','Estagiario')->get();
 
-        return view('usuario.indexProfessor',compact('a_user'));
+        return view('usuario.index',compact('a_user'));
     }
     public function create(){
-        return view('usuario.create');
+        $a_setor = Setor::all();
+        return view('usuario.create',compact('a_setor'));
     }
 
     public function salvar(Request $request){
@@ -38,6 +39,9 @@ class UsuarioController extends Controller
         $user->level       = $request->level;
         $user->telefone = $request->telefone;
         $user->save();
+
+        $setor = Setor::find($request->setor);
+        $user->setors()->attach($setor);
         return redirect()->route('login');
     }
 

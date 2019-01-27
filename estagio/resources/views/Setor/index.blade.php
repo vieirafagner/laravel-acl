@@ -19,12 +19,12 @@
                             <th class="text-center">Carga Horária Exigida</th>
                             <th colspan="2" class="text-center">Ações</th>
                         </tr>
-                      <!-- foreach-->
+                      @foreach($a_setores as $setor)
                             <tr>
-                                <td class="text-center">1</td>
-                                <td class="text-center">PSF</td>
-                                <td class="text-center">8</td>
-                                <td class="text-center"><span class="badge bg-blue-gradient">108</td>
+                                <td class="text-center">{{$setor->id}}</td>
+                                <td class="text-center">{{$setor->nome}}</td>
+                                <td class="text-center">{{$setor->n_vagas}}</td>
+                                <td class="text-center"><span class="badge bg-blue-gradient">{{$setor->carga_h}}</td>
                                 <td><a class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span></a> </td>
                                 <td>
                                     <form>
@@ -32,7 +32,7 @@
                                         <button type="submit" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span></button>
                                     </form>
                             </tr>
-                        <!--endforeach -->
+                        @endforeach
                         </tbody>
                     </table>
                 </div>

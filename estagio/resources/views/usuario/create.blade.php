@@ -56,37 +56,15 @@
                 </div>
 
                 <div class="form-group col-md-6">
-                    <label for="email">Setor de Atuação</label>
-                    <select id="level" name="level" class="form-control">
-                        <option selected>Laboratório</option>
-                        <option>Asilo Lar de Jesus</option>
-                        <option>Pequeno Davi</option>
+                    <label for="setor">Setor de Atuação</label>
+                    <select id="setor" name="setor" class="form-control">
+                        @foreach($a_setor as $setor)
+                        <option value="{{$setor->id}}" selected>{{$setor->nome}}</option>
+                        @endforeach
                     </select>
                 </div>
 
-                <div class="form-group">
-                    <label>Date masks:</label>
 
-                    <div class="input-group">
-                        <div class="input-group-addon">
-                            <i class="fa fa-calendar"></i>
-                        </div>
-                        <input type="text" class="form-control" data-inputmask="'alias': 'dd/mm/yyyy'" data-mask="">
-                    </div>
-                    <!-- /.input group -->
-                </div>
-                <div class="form-group">
-                    <label>
-                        <div class="iradio_flat-green checked" aria-checked="false" aria-disabled="false" style="position: relative;"><input type="radio" name="r3" class="flat-red" checked="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
-                    </label>
-                    <label>
-                        <div class="iradio_flat-green" aria-checked="false" aria-disabled="false" style="position: relative;"><input type="radio" name="r3" class="flat-red" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
-                    </label>
-                    <label>
-                        <div class="iradio_flat-green disabled" aria-checked="false" aria-disabled="true" style="position: relative;"><input type="radio" name="r3" class="flat-red" disabled="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
-                        Flat green skin radio
-                    </label>
-                </div>
 
             </div>
             <!-- /.box-body -->

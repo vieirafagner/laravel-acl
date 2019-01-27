@@ -10,5 +10,10 @@ class Setor extends Model
         'nome', 'carga_h','n_vagas',
     ];
 
+    public function user(){
+
+        return $this->belongsToMany(User::class);
+    }
+
 
 }
