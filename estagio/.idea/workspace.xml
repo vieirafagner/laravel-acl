@@ -2,204 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58240c63-ba7c-4521-bc99-f6ccee7fd34b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/icheck.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/estagio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/estagio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adminlte/.idea/webResources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adminlte/app/Http/Controllers/Painel/PainelController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adminlte/public/imagens/user2-160x160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adminlte/resources/views/painel/index.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SetorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SetorController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsuarioController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsuarioController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Setor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Setor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/adminlte.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/adminlte.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/hashing.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/hashing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/database/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_01_22_002205_create_setors_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_01_23_190641_setor_user.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/svg/403.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/svg/403.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/svg/404.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/svg/404.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/svg/500.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/svg/500.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/svg/503.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/svg/503.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/css/auth.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/css/auth.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/AdminLTE.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/AdminLTE.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/AdminLTE.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/AdminLTE.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-black-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-black-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-black-light.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-black-light.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-black.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-black.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-black.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-black.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-blue-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-blue-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-blue-light.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-blue-light.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-blue.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-blue.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-blue.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-green-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-green-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-green-light.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-green-light.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-green.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-green.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-green.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-green.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-purple-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-purple-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-purple-light.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-purple-light.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-purple.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-purple.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-purple.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-red-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-red-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-red-light.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-red-light.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-red.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-red.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-red.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-red.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-yellow-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-yellow-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-yellow-light.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-yellow-light.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-yellow.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-yellow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-yellow.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-yellow.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/js/adminlte.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/js/adminlte.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/js/adminlte.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/dist/js/adminlte.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/icheck.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/icheck.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/icheck.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/icheck.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/blue.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/blue.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/blue@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/blue@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/Ionicons/css/ionicons.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/Ionicons/css/ionicons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/Ionicons/css/ionicons.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/Ionicons/css/ionicons.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/Ionicons/fonts/ionicons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/Ionicons/fonts/ionicons.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/Ionicons/fonts/ionicons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/Ionicons/fonts/ionicons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/Ionicons/fonts/ionicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/Ionicons/fonts/ionicons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/Ionicons/fonts/ionicons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/Ionicons/fonts/ionicons.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/bootstrap/dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/bootstrap/dist/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/bootstrap/dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/font-awesome/css/font-awesome.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/font-awesome/css/font-awesome.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/font-awesome/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/jquery/dist/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/jquery/dist/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/jquery/dist/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/jquery/dist/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/jquery/dist/jquery.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/jquery/dist/jquery.min.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/vendor/jquery/dist/jquery.slimscroll.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/adminlte/vendor/jquery/dist/jquery.slimscroll.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/public/web.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/pt-BR/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/pt-BR/pagination.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/pt-BR/passwords.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/pt-BR/validation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/adminlte/ar/adminlte.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/adminlte/de/adminlte.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/adminlte/en/adminlte.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/adminlte/es/adminlte.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/adminlte/fr/adminlte.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/adminlte/hr/adminlte.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/adminlte/it/adminlte.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/adminlte/nl/adminlte.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/adminlte/pt-br/adminlte.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/adminlte/ru/adminlte.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/adminlte/uk/adminlte.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/adminlte/zh-CN/adminlte.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Setor/create.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Setor/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/professor/chamada.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/professor/chamada.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/professor/oferta.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/usuario/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/usuario/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/usuario/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/adminlte/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/adminlte/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/adminlte/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/adminlte/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/adminlte/page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/adminlte/page.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/adminlte/partials/menu-item-top-nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/adminlte/partials/menu-item-top-nav.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/adminlte/partials/menu-item.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/adminlte/partials/menu-item.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/adminlte/passwords/email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/adminlte/passwords/email.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/adminlte/passwords/reset.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/adminlte/passwords/reset.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/adminlte/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/adminlte/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/usuario/indexe.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/usuario/indexe.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../noticia/.editorconfig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../noticia/.env.example" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../noticia/.gitattributes" beforeDir="false" />
@@ -336,11 +145,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/vendor/adminlte/page.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+            <state relative-caret-position="15">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/usuario/create.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="57" column="50" lean-forward="true" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -360,8 +178,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/usuario/indexe.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="19" column="68" lean-forward="true" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+            <state relative-caret-position="196">
+              <caret line="30" column="111" selection-start-line="30" selection-start-column="111" selection-end-line="30" selection-end-column="111" />
             </state>
           </provider>
         </entry>
@@ -391,6 +209,7 @@
       <find>logou</find>
       <find>onc</find>
       <find>per</find>
+      <find>&lt;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -405,7 +224,6 @@
         <option value="$PROJECT_DIR$/app/Setor.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_01_29_025939_create_setors_table.php" />
         <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
-        <option value="$PROJECT_DIR$/resources/views/usuario/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/vendor/adminlte/master.blade.php" />
         <option value="$USER_HOME$/Downloads/AdminLTE/index.html" />
         <option value="$PROJECT_DIR$/resources/views/setor/create.blade.php" />
@@ -417,10 +235,11 @@
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/professor/chamada.blade.php" />
         <option value="$PROJECT_DIR$/config/adminlte.php" />
-        <option value="$PROJECT_DIR$/resources/views/usuario/indexe.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UsuarioController.php" />
         <option value="$PROJECT_DIR$/resources/views/usuario/indexp.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/vendor/adminlte/page.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/usuario/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/usuario/indexe.blade.php" />
       </list>
     </option>
   </component>
@@ -706,18 +525,18 @@
       <workItem from="1548977971172" duration="10991000" />
       <workItem from="1549039080267" duration="162000" />
       <workItem from="1549043143690" duration="7285000" />
-      <workItem from="1549300238890" duration="2601000" />
+      <workItem from="1549300238890" duration="4066000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37195000" />
+    <option name="totallyTimeSpent" value="38660000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27878788" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27878788" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -730,7 +549,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32901135" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32901135" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -833,13 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/usuario/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
@@ -901,10 +713,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/usuario/indexe.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/vendor/adminlte/page.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="68" lean-forward="true" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+        <state relative-caret-position="15">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
@@ -915,10 +727,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/vendor/adminlte/page.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/usuario/indexe.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+        <state relative-caret-position="196">
+          <caret line="30" column="111" selection-start-line="30" selection-start-column="111" selection-end-line="30" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/usuario/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="57" column="50" lean-forward="true" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
         </state>
       </provider>
     </entry>

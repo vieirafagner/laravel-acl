@@ -27,7 +27,9 @@
                                 <td class="text-center">{{$user->id}}</td>
                                 <td class="text-center">{{$user->name}}</td>
                                 <td class="text-center">{{$user->email}}</td>
-                                        <td class="text-center"><span class="badge bg-blue-gradient">teste</span></td>
+                                    @foreach($user->setors as $s)
+                                        <td class="text-center"><span class="badge bg-blue-gradient">{{$s->nome}}</span></td>
+                                    @endforeach
                                 <td class="text-center">{{$user->telefone}}</td>
                                 <td><button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#janela"><span class="glyphicon glyphicon-edit"></span></button> </td>
                                 <td>

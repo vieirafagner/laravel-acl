@@ -55,7 +55,7 @@
                     </select>
                 </div>
 
-                <<div class="form-group col-md-6">
+                <div class="form-group col-md-6">
                     <label for="setor">Setor de Atuação</label>
                     <select id="setor" name="setor" class="form-control">
                         @foreach($a_setor as $setor)
@@ -64,10 +64,8 @@
                     </select>
                 </div>
 
-
-
             </div>
-            <!-- /.box-body -->
+
             <div class="box-footer">
                 <button type="submit" class="btn btn-primary">Salvar</button>
             </div>
