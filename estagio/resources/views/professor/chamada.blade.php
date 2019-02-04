@@ -7,7 +7,6 @@
             <div class="box">
                 <div class="box-header with-border">
                     <h3 class="box-title">Registro de Presença</h3>
-
                 </div>
                 <div class="box-body">
                     <div class="row-fluid"></div>
@@ -17,68 +16,17 @@
                             <th class="text-center">Nome</th>
                             <th colspan="2" class="text-center">Ações</th>
                         </tr>
-                        <!-- foreach-->
+                        <@foreach($a_user as $user)
                         <tr>
-                            <td class="text-center">Fagner Vieira de Almeida</td>
-                            <td class="text-center"><label class=" ">
+                            <td class="text-center">{{$user->name}}</td>
+                            <td class="text-center"><label class="">
                                     <div class="checked">
-                                        <input type="checkbox" checked="checked"> Presença
-                                        <input type="checkbox" checked="checked"> Falta
+                                        <input type="checkbox" class="icheckbox_flat-green checked" checked="checked"> Presença
+                                        <input type="checkbox" class="icheckbox_flat-green checked" checked="checked"> Falta
                                     </div>
                                 </label>
                             </td>
-                        </tr>
-                            <td class="text-center">Joao da silva</td>
-                        <td class="text-center"><label class=" ">
-                                <div class="checked">
-                                    <input type="checkbox" checked="checked"> Presença
-                                    <input type="checkbox" checked="checked"> Falta
-                                </div>
-                            </label>
-                        </td>
-                        <tr>
-                            <td class="text-center">Thales Ataíde</td>
-                            <td class="text-center"><label class=" ">
-                                    <div class="checked">
-                                        <input type="checkbox" checked="checked"> Presença
-                                        <input type="checkbox" checked="checked"> Falta
-                                    </div>
-                                </label>
-                            </td>
-                        </tr>
-
-
-                        <td class="text-center">Thaís Barbosa</td>
-                        <td class="text-center"><label class=" ">
-                                <div class="checked">
-                                    <input type="checkbox"  checked="checked"> Presença
-                                    <input type="checkbox" checked="checked"> Falta
-                                </div>
-                            </label>
-                        </td>
-                        <tr>
-                            <td class="text-center">Felipe dos Santos</td>
-                            <td class="text-center"><label class=" ">
-                                    <div class="checked">
-                                        <input type="checkbox" checked="checked"> Presença
-                                        <input type="checkbox" checked="checked"> Falta
-                                    </div>
-                                </label>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td class="text-center">Giovanni Silva</td>
-                            <td class="text-center"><label class=" ">
-                                    <div class="checked">
-                                        <input type="checkbox" checked="checked"> Presença
-                                        <input type="checkbox" checked="checked"> Falta
-                                    </div>
-                                </label>
-                            </td>
-                        </tr>
-
-                        <!--endforeach -->
+                        @endforeach
                         </tbody>
                     </table>
                 </div>

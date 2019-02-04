@@ -26,30 +26,23 @@ class AuthServiceProvider extends ServiceProvider
         $this->registerPolicies();
 
         Gate::define('Coordenador',function ($user){
-
-            if($user->level == 'Coordenador'){
+            if($user->cargo == 'Coordenador'){
                 return true;
             }
-
             return false;
         });
-
         Gate::define('Estagiário',function ($user){
-
-            if($user->level == 'Estagiário'){
+            if($user->cargo == 'Estagiário'){
                 return true;
             }
-
             return false;
         });
-
         Gate::define('Professor',function ($user){
-
-            if($user->level == 'Professor'){
+            if($user->cargo == 'Professor'){
                 return true;
             }
-
             return false;
         });
+
     }
 }

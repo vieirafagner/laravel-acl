@@ -16,7 +16,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email','level', 'password','telefone',
+        'name', 'email','cargo' ,'password','telefone',
     ];
 
     /**
@@ -29,7 +29,6 @@ class User extends Authenticatable
     ];
 
     public function setors(){
-
         return $this->belongsToMany(Setor::class);
     }
 }

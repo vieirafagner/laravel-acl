@@ -9,7 +9,7 @@
         </div>
         <!-- /.box-header -->
         <!-- form start -->
-        <form role="form" action="{{route('usuarioscad')}}" method="POST">
+        <form role="form" action="{{route('usuarios.store')}}" method="POST">
             @csrf
             <div class="box-body">
                 <div class="form-group col-md-6">
@@ -48,18 +48,18 @@
                 </div>
                 <div class="form-group col-md-6">
                     <label for="email">Função</label>
-                    <select id="level" name="level" class="form-control">
+                    <select id="cargo" name="cargo" class="form-control">
                         <option selected>Coordenador</option>
                         <option>Professor</option>
                         <option>Estagiário</option>
                     </select>
                 </div>
 
-                <div class="form-group col-md-6">
+                <<div class="form-group col-md-6">
                     <label for="setor">Setor de Atuação</label>
                     <select id="setor" name="setor" class="form-control">
                         @foreach($a_setor as $setor)
-                        <option value="{{$setor->id}}" selected>{{$setor->nome}}</option>
+                            <option value="{{$setor->id}}" selected>{{$setor->nome}}</option>
                         @endforeach
                     </select>
                 </div>

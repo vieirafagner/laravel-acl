@@ -7,13 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 class Setor extends Model
 {
     protected $fillable = [
-        'nome', 'carga_h','n_vagas',
+        'nome','responsavel','telefone','email','endereco','cnpj','carga_h'
     ];
 
     public function user(){
 
         return $this->belongsToMany(User::class);
     }
-
-
 }

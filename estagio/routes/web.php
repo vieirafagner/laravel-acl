@@ -11,18 +11,13 @@
 |
 */
 
-
 Route::group(['middleware' => 'web'], function(){
     Route::get('/', 'HomeController@index');
     Auth::routes();
     Route::get('/home', 'HomeController@index')->name('home');
 });
 
-Route::resource('setor', 'SetorController');
-
-Route::get('/usuariosP','UsuarioController@index')->name('usuariosP');
-Route::get('/usuariosE','UsuarioController@indexE')->name('usuariosE');
-Route::get('/usuariosSet','UsuarioController@create')->name('usuariosSet');
-Route::post('/usuariosCadastro','UsuarioController@salvar')->name('usuarioscad');
-Route::get('/chamada','UsuarioController@chamada')->name('chamada');
-Route::get('/oferta','UsuarioController@oferta')->name('oferta');
+Route::get('listagem','UsuarioController@index2')->name('estagiarios.index');
+Route::get('chamada','UsuarioController@registro')->name('RegistrarPresenca');
+Route::resource('usuarios','UsuarioController');
+Route::resource('setor','SetorController');

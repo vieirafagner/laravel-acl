@@ -3,8 +3,7 @@
 @section('adminlte_css')
     <link rel="stylesheet"
           href="{{ asset('vendor/adminlte/dist/css/skins/skin-' . config('adminlte.skin', 'blue') . '.min.css')}} ">
-    <link rel="stylesheet" href="{{ asset('vendor/adminlte/plugins/iCheck/flat/all.css') }}">
-
+    <link rel="stylesheet" href="{{asset('plugins/iCheck/all.css')}}">
     @stack('css')
     @yield('css')
 @stop
@@ -17,7 +16,6 @@
 
 @section('body')
     <div class="wrapper">
-
         <!-- Main Header -->
         <header class="main-header">
             @if(config('adminlte.layout') == 'top-nav')
@@ -56,27 +54,56 @@
                 </a>
             @endif
                 <!-- Navbar Right Menu -->
-                <div class="navbar-custom-menu">
+               <div class="navbar-custom-menu">
+                   <ul class="nav navbar-nav">
+                       <li class="dropdown user user-menu">
+                           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 
+                               <span class="badge bg-purple-gradient"  >{{auth()->user()->name}}</span>
+                           </a>
+                           <ul class="dropdown-menu">
+                               <!-- User image -->
+                               <li class="user-header">
+
+
+                                   <p>
+                                       {{auth()->user()->name}} - {{auth()->user()->cargo}}
+                                       <small>Membro desde {{auth()->user()->created_at}}</small>
+                                   </p>
+                               </li>
+                               <!-- Menu Body -->
+
+                               <!-- Menu Footer-->
+                               <li class="user-footer">
+                                   <div class="pull-left">
+                                       <a href="#" class="btn btn-default btn-flat"><span class="glyphicon glyphicon-user">Perfil</span></a>
+                                   </div>
+                                   <div class="pull-right">
+                                       @if(config('adminlte.logout_method') == 'GET' || !config('adminlte.logout_method') && version_compare(\Illuminate\Foundation\Application::VERSION, '5.3.0', '<'))
+                                           <a href="{{ url(config('adminlte.logout_url', 'auth/logout')) }}">
+                                               <i class="fa fa-fw fa-power-off"></i> {{ trans('adminlte::adminlte.log_out') }}
+                                           </a>
+                                       @else
+                                           <a href="#"
+                                              onclick="event.preventDefault(); document.getElementById('logout-form').submit();"
+                                           >
+                                               <i class="fa fa-fw fa-power-off"></i> {{ trans('Sair') }} </a>
+                                           <form id="logout-form" action="{{ url(config('adminlte.logout_url', 'auth/logout')) }}" method="POST" style="display: none;">
+                                               @if(config('adminlte.logout_method'))
+                                                   {{ method_field(config('adminlte.logout_method')) }}
+                                               @endif
+                                               {{ csrf_field() }}
+                                           </form>
+                                       @endif
+                                   </div>
+                               </li>
+                           </ul>
+                       </li>
+
+                   </ul>
                     <ul class="nav navbar-nav">
                         <li>
-                            @if(config('adminlte.logout_method') == 'GET' || !config('adminlte.logout_method') && version_compare(\Illuminate\Foundation\Application::VERSION, '5.3.0', '<'))
-                                <a href="{{ url(config('adminlte.logout_url', 'auth/logout')) }}">
-                                    <i class="fa fa-fw fa-power-off"></i> {{ trans('adminlte::adminlte.log_out') }}
-                                </a>
-                            @else
-                                <a href="#"
-                                   onclick="event.preventDefault(); document.getElementById('logout-form').submit();"
-                                >
-                                    <i class="fa fa-fw fa-power-off"></i> {{ trans('adminlte::adminlte.log_out') }}
-                                </a>
-                                <form id="logout-form" action="{{ url(config('adminlte.logout_url', 'auth/logout')) }}" method="POST" style="display: none;">
-                                    @if(config('adminlte.logout_method'))
-                                        {{ method_field(config('adminlte.logout_method')) }}
-                                    @endif
-                                    {{ csrf_field() }}
-                                </form>
-                            @endif
+
                         </li>
                     </ul>
                 </div>
@@ -85,7 +112,6 @@
                 @endif
             </nav>
         </header>
-
         @if(config('adminlte.layout') != 'top-nav')
         <!-- Left side column. contains the logo and sidebar -->
         <aside class="main-sidebar">
@@ -134,6 +160,7 @@
 
 @section('adminlte_js')
     <script src="{{ asset('vendor/adminlte/dist/js/adminlte.min.js') }}"></script>
+    <script src="{{asset('plugins/iCheck/icheck.min.js')}}"></script>
     @stack('js')
     @yield('js')
 @stop

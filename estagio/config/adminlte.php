@@ -32,7 +32,7 @@ return [
 
     'logo' => '<b>SGE</b>',
 
-    'logo_mini' => '<b>S</b>',
+    'logo_mini' => '<b>S</b>G',
 
     /*
     |--------------------------------------------------------------------------
@@ -108,39 +108,37 @@ return [
     */
 
     'menu' => [
-        'Sistema Para Gerenciamento de Estágio',
+
         [
             'text' => 'Blog',
             'url'  => 'admin/blog',
             'can'  => 'manage-blog',
         ],
-
         [
             'text' => 'Novo Usuário',
-            'route' => 'usuariosSet',
-            'icon' => 'plus',
-            'can' => 'Coordenador',
+            'route'   =>'usuarios.create',
+            'icon'  => 'user',
+            'can'   =>'Coordenador'
+
         ],
 
         [
-            'text'    => 'Instituição',
+            'text'    => 'Campo de Estágio',
             'icon'    => 'hospital-o',
-            'can' => 'Coordenador',
             'submenu' => [
                 [
-                    'text' => 'Cadastrar Instituição',
+                    'text' => 'Cadastrar Campo de Estágio',
                     'route'  => 'setor.create',
-                    'icon' => 'plus-square'
+                    'icon' =>'hospital-o'
                 ],
+
                 [
-                    'text'    => 'Relatório de Instituições',
-                    'route'     => 'setor.index',
-                    'icon' => 'list-alt'
+                    'text' => 'Gerenciar Campo de Estágio',
+                    'route'  => 'setor.create',
+                    'icon' =>'config',
+
                 ],
-
             ],
-
-
         ],
 
         [
@@ -148,40 +146,36 @@ return [
             'icon'    => 'user-md',
             'submenu' => [
                 [
-                    'text' => 'Ofertar Vaga de Estágio',
-                    'url'  => 'oferta',
-                    'icon' => 'bullhorn'
+                    'text' => 'Cadastrar Professor',
+                    'url'  => '#',
+                    'icon' => 'user-md',
                 ],
+
+                [
+                    'text' => 'Relatório de Professores',
+                    'route'  => 'usuarios.index',
+                    'icon' => 'user-md',
+                ],
+
 
                 [
                     'text' => 'Realizar Chamada',
-                    'url'  => 'chamada',
-                    'icon' => 'chevron-circle-down'
+                    'route'  => 'RegistrarPresenca',
+                    'icon' => 'user-md',
                 ],
-
-                [
-                    'text'    => 'Relatório de Professores',
-                    'route'     => 'usuariosP',
-                    'icon' => 'list-alt'
-                ],
-
             ],
-
-
         ],
+
         [
             'text'    => 'Estagiário',
             'icon'    => 'user',
             'submenu' => [
                 [
-                    'text'    => 'Relatório de Estagiários',
-                    'route'     => 'usuariosE',
-                    'icon' => 'list-alt'
+                    'text' => 'Relatorio de Estagiários',
+                    'route'  => 'estagiarios.index',
+                    'icon' => 'user',
                 ],
-
             ],
-
-
         ],
 
     ],
