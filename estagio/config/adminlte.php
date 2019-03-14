@@ -135,7 +135,7 @@ return [
                 [
                     'text' => 'Gerenciar Campo de Estágio',
                     'route'  => 'setor.create',
-                    'icon' =>'config',
+                    'icon' =>'wrench',
 
                 ],
             ],
@@ -162,6 +162,7 @@ return [
                     'text' => 'Realizar Chamada',
                     'route'  => 'RegistrarPresenca',
                     'icon' => 'user-md',
+                    'can' => 'Professor'
                 ],
             ],
         ],
@@ -177,6 +178,14 @@ return [
                 ],
             ],
         ],
+
+        [
+            'text' => 'Matrícula',
+            'icon' => "address-card",
+            'route' => 'estagiarios.matricula',
+            'can' => 'Coordenador',
+
+        ]
 
     ],
 

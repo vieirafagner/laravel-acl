@@ -46,6 +46,9 @@ class UsuarioController extends Controller
         $user->password   = Hash::make($request->password);
         $user->cargo       = $request->cargo;
         $user->telefone = $request->telefone;
+        $user->status = "espera";
+        $user->carga_f = 600;
+        $user->carga_atual = 0;
         $user->save();
         $setor = Setor::find($request->setor);
         $user->setors()->attach($setor);
@@ -53,7 +56,7 @@ class UsuarioController extends Controller
     }
 
     public function registro(){
-        $a_user = User::where('cargo','Estagiário')->get();
+        $a_user = User::where('status','ativo')->get();
         return view('professor.chamada',compact('a_user'));
     }
     /**
@@ -67,6 +70,27 @@ class UsuarioController extends Controller
         //
     }
 
+    public function getmatricula(){
+
+        $a_user2 = User::where('cargo','Estagiário')->paginate(10);
+        return view('usuario.matricula',compact('a_user2'));
+    }
+
+    public function  setMatricula($id){
+
+        $upuser = User::find($id);
+        $upuser->status = "ativo";
+        $upuser->save();
+
+        return redirect()->route('estagiarios.matricula')->with('sucess','Alunos matriculados com sucesso');
+    }
+
+    public  function getperfil($id){
+
+        $user = User::find($id);
+        $a_setor=Setor::all();
+        return view('usuario.perfil',compact('a_setor','user'));
+    }
 
     /**
      * Show the form for editing the specified resource.
@@ -86,9 +110,10 @@ class UsuarioController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, $id, User $user)
     {
-        //
+        $user->update($request->all());
+        return redirect()->route('usuarios.index');
     }
 
     /**

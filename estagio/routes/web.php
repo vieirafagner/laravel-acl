@@ -17,6 +17,9 @@ Route::group(['middleware' => 'web'], function(){
     Route::get('/home', 'HomeController@index')->name('home');
 });
 
+Route::get('setmatricula/{id}','UsuarioController@setmatricula')->name('setmatricula');
+Route::get('matricula','UsuarioController@getmatricula')->name('estagiarios.matricula');
+Route::get('perfil/{id}','UsuarioController@getperfil')->name('getperfil');
 Route::get('listagem','UsuarioController@index2')->name('estagiarios.index');
 Route::get('chamada','UsuarioController@registro')->name('RegistrarPresenca');
 Route::resource('usuarios','UsuarioController');

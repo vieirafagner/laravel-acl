@@ -59,7 +59,7 @@
                        <li class="dropdown user user-menu">
                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 
-                               <span class="badge bg-purple-gradient"  >{{auth()->user()->name}}</span>
+                              <span class="glyphicon glyphicon-user"></span> <b>{{auth()->user()->name}}</b>
                            </a>
                            <ul class="dropdown-menu">
                                <!-- User image -->
@@ -76,7 +76,9 @@
                                <!-- Menu Footer-->
                                <li class="user-footer">
                                    <div class="pull-left">
-                                       <a href="#" class="btn btn-default btn-flat"><span class="glyphicon glyphicon-user">Perfil</span></a>
+                                      @can('Coordenador') <a href="{{route('getperfil',auth()->user()->id)}}" class="btn btn-default btn-flat"><span class="glyphicon glyphicon-user">Perfil</span></a>@endcan
+                                          @can('Professor') <a href="{{route('getperfil',auth()->user()->id)}})}}" class="btn btn-default btn-flat"><span class="glyphicon glyphicon-user">Perfil</span></a>@endcan
+                                          @can('Estagiário') <a href="{{route('getperfil',auth()->user()->id)}})}}" class="btn btn-default btn-flat">Alterar Senha</a>@endcan
                                    </div>
                                    <div class="pull-right">
                                        @if(config('adminlte.logout_method') == 'GET' || !config('adminlte.logout_method') && version_compare(\Illuminate\Foundation\Application::VERSION, '5.3.0', '<'))

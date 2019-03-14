@@ -21,7 +21,9 @@ class CreateUsersTable extends Migration
             $table->string('cargo');
             $table->string('password');
             $table->string('telefone');
-
+            $table->string('status');
+            $table->integer('carga_f');
+            $table->integer('carga_atual');
             $table->rememberToken();
             $table->timestamps();
         });

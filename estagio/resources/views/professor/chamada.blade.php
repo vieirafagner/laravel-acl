@@ -8,25 +8,31 @@
                 <div class="box-header with-border">
                     <h3 class="box-title">Registro de Presença</h3>
                 </div>
+
                 <div class="box-body">
                     <div class="row-fluid"></div>
                     <table class="table table-bordered table-hover table-striped table-condensed">
                         <tbody>
                         <tr>
                             <th class="text-center">Nome</th>
+                            <th class="text-center">Setor</th>
                             <th colspan="2" class="text-center">Ações</th>
                         </tr>
-                        <@foreach($a_user as $user)
+                        @foreach($a_user as $user)
+
                         <tr>
                             <td class="text-center">{{$user->name}}</td>
-                            <td class="text-center"><label class="">
+
+                            <t
+                            @endforeach
+                            <td class="text-center">
                                     <div class="checked">
                                         <input type="checkbox" class="icheckbox_flat-green checked" checked="checked"> Presença
                                         <input type="checkbox" class="icheckbox_flat-green checked" checked="checked"> Falta
                                     </div>
                                 </label>
                             </td>
-                        @endforeach
+
                         </tbody>
                     </table>
                 </div>
