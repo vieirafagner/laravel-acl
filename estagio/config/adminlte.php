@@ -136,7 +136,12 @@ return [
                     'text' => 'Gerenciar Campo de Estágio',
                     'route'  => 'setor.create',
                     'icon' =>'wrench',
+                ],
 
+                [
+                    'text' => 'Relatórios Campo de Estágio',
+                    'route'  => 'setor.index',
+                    'icon' =>'hospital-o',
                 ],
             ],
         ],

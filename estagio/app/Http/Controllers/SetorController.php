@@ -14,8 +14,8 @@ class SetorController extends Controller
      */
     public function index()
     {
-        $a_setor= Setor::all();
-        return view('setor.index');
+        $a_setor= Setor::paginate(10);
+        return view('setor.index',compact('a_setor'));
     }
 
     /**
@@ -57,9 +57,10 @@ class SetorController extends Controller
      * @param  \App\Setor  $setor
      * @return \Illuminate\Http\Response
      */
-    public function edit(Setor $setor)
+    public function edit($id)
     {
-        //
+        $setor = Setor::find($id);
+        return view('setor.editar',compact('setor'));
     }
 
     /**
@@ -71,7 +72,8 @@ class SetorController extends Controller
      */
     public function update(Request $request, Setor $setor)
     {
-        //
+        $setor->update($request->all());
+        return redirect()->route('setor.index');
     }
 
     /**

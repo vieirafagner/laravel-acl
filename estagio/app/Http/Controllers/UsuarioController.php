@@ -100,20 +100,24 @@ class UsuarioController extends Controller
      */
     public function edit($id)
     {
-        //
+        $user = User::find($id);
+        $a_setor = Setor::all();
+        return view('usuario.editar',compact('user','a_setor'));
     }
 
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \Illuminate\Http\Request $request
+     * @param User $user
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id, User $user)
+    public function update(Request $request, $id)
     {
+        $user = User::find($id);
+        $user->password   = Hash::make($request->password);
         $user->update($request->all());
-        return redirect()->route('usuarios.index');
+        return redirect()->route('home');
     }
 
     /**

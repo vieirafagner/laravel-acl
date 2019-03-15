@@ -6,7 +6,7 @@
         <div class="col-md-12">
             <div class="box">
                 <div class="box-header with-border">
-                    <h3 class="box-title">Lista de Professores</h3>
+                    <h3 class="box-title">Lista de Estagiários</h3>
                     <a class="btn btn-success pull-right" href="#"><span class="glyphicon glyphicon-plus"><label style="font-family: Cambria;font-size: 12px">Adicionar</label></span> </a>
                 </div>
                 <div class="box-body">
@@ -31,7 +31,7 @@
                                         <td class="text-center"><span class="badge bg-blue-gradient">{{$s->nome}}</span></td>
                                     @endforeach
                                 <td class="text-center">{{$user->telefone}}</td>
-                                <td><button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#janela"><span class="glyphicon glyphicon-edit"></span></button> </td>
+                                <td><a href="{{route('usuarios.edit',$user->id)}}" type="button" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span></a> </td>
                                 <td>
                                     <form >
                                         @csrf
