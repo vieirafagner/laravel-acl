@@ -69,8 +69,10 @@
                                 <option value="Hospital"@if($setor=="Hospital") selected>{{$s->nome='Hosiptal'}}</option>
                                 <option value="Laboratório"@elseif($setor=="Laboratório") selected>{{$s->nome='Laboratório'}}</option>
                                 <option value="Asilo joao XXlll"@elseif($setor=="Asilo joao XXlll") selected>{{$s->nome='Asilo joao XXlll'}}</option>
-                                <option value="PSF"@elseif($setor=="PSF") selected @endif>{{$s->nome='PSF'}}</option>
-
+                                <option value="PSF"@elseif($setor=="PSF") selected >{{$s->nome='PSF'}}</option>
+                                <option value="Asilo Lar de Jesus"@elseif($setor=="Asilo Lar de Jesus") selected>{{$s->nome='Asilo Lar de Jesus'}}</option>
+                                <option value="Viva Vida"@elseif($setor=="Viva Vida") selected>{{$s->nome='Viva Vida'}}</option>
+                                <option value="Pequeno Davi"@elseif($setor=="Pequeno Davi") selected @endif>{{$s->nome='Pequeno Davi'}}</option>
                             </select>
                         @endforeach
                     </div>
