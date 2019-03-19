@@ -1,5 +1,5 @@
 @extends('adminlte::page')
-@section('title','Lista de Estagiarios')
+@section('title','Lista de Professores')
 @section('content_header')
 @section('content')
     <div class="row">
@@ -33,7 +33,7 @@
                                 @endforeach
 
                                 <td class="text-center">{{$user->telefone}}</td>
-                                <td><button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#janela"><span class="glyphicon glyphicon-edit"></span></button> </td>
+                                <td><a href="{{route('usuarios.edit',$user->id)}}" type="button" class="btn btn-primary"  data-toggle="modal" data-target="#janela"><span class="glyphicon glyphicon-edit"></span></a> </td>
                                 <td>
                                     <form >
                                         @csrf

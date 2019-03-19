@@ -116,7 +116,13 @@ class UsuarioController extends Controller
     {
         $user = User::find($id);
         $user->password   = Hash::make($request->password);
-        $user->update($request->all());
+        $user->name = $request->name;
+        $user->email = $request->email;
+        $user->telefone = $request->telefone;
+        $setor = Setor::find($id);
+        $user->setors()->attach($setor);
+        $user->save();
+
         return redirect()->route('home');
     }
 
@@ -128,6 +134,8 @@ class UsuarioController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $user = User::find($id);
+        $user->delete();
+        return redirect()->route('estagiarios.index');
     }
 }

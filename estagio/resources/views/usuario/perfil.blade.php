@@ -5,6 +5,9 @@
     <div class="box box-primary">
         <div class="box-header with-border">
             <h3 class="box-title">Perfil</h3>
+            @can('Professor')
+                <a class="btn btn-success pull-right" href="#"><span class="glyphicon glyphicon-plus"><label style="font-family: Cambria;font-size: 12px">Adicionar Sub-Setores</label></span> </a>
+            @endcan
         </div>
         <form role="form" action="{{route('usuarios.update',$user->id)}}" method="POST">
             @method('PUT')
@@ -56,15 +59,22 @@
                     </div>
 
                 @endcan
-                <div class="form-group col-md-6">
-                    <label for="setor">Setor de Atuação</label>
-                    <select id="setor" name="setor" class="form-control">
-                        @foreach($a_setor as $setor)
-                            <option value="{{$setor->id}}" selected>{{$setor->nome}}</option>
+                @if($user->cargo =='Estagiário')
+                    <div class="form-group col-md-6">
+                        <label for="setor">Setor de Atuação</label>
+                        @foreach($user->setors as $s)
+                            <?php $setor=$s->nome?>
+                            <select id="setor" name="setor" class="form-control" disabled="">
+
+                                <option value="Hospital"@if($setor=="Hospital") selected>{{$s->nome='Hosiptal'}}</option>
+                                <option value="Laboratório"@elseif($setor=="Laboratório") selected>{{$s->nome='Laboratório'}}</option>
+                                <option value="Asilo joao XXlll"@elseif($setor=="Asilo joao XXlll") selected>{{$s->nome='Asilo joao XXlll'}}</option>
+                                <option value="PSF"@elseif($setor=="PSF") selected @endif>{{$s->nome='PSF'}}</option>
+
+                            </select>
                         @endforeach
-                    </select>
-                </div>
-                <div align="left" class="col-md-1"><a class=" btn btn-primary" href="#">Inserir Sub-Setores</a></div>
+                    </div>
+                @endif
             </div>
             <div class="box-footer">
                 <button type="submit" class="btn btn-primary">Salvar</button>

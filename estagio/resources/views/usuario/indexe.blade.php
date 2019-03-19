@@ -33,9 +33,9 @@
                                 <td class="text-center">{{$user->telefone}}</td>
                                 <td><a href="{{route('usuarios.edit',$user->id)}}" type="button" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span></a> </td>
                                 <td>
-                                    <form >
+                                    <form action="{{route('usuarios.destroy',$user->id)}}" method="POST" >
                                         @csrf
-
+                                        @method('DELETE')
                                         <button type="submit" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span></button>
                                     </form>
                                 </td>
