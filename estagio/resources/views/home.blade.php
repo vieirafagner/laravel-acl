@@ -3,6 +3,11 @@
 @section('title', 'SGE - Sistema Gerenciador de Estágios')
 
 @section('content_header')
+    @if (session('sucess'))
+        <div class="alert alert-success">
+            {{ session('sucess') }}
+        </div>
+    @endif
     @can('Coordenador')
     <div class="box-header with-border">
         <h3 class="box-title"><h3 style="font-family: Andalus; font-size: 40px" class="text-center">Cadastro Rápido</h3></h3>

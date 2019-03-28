@@ -15,15 +15,12 @@
                         <tbody>
                         <tr>
                             <th class="text-center">Nome</th>
-                            <th class="text-center">Setor</th>
+
                             <th colspan="2" class="text-center">Ações</th>
                         </tr>
                         @foreach($a_user as $user)
-
                         <tr>
                             <td class="text-center">{{$user->name}}</td>
-
-                            <t
                             @endforeach
                             <td class="text-center">
                                     <div class="checked">

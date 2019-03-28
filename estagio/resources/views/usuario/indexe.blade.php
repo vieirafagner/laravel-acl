@@ -19,6 +19,7 @@
                             <th class="text-center">Email</th>
                             <th class="text-center">Campo de Atuação</th>
                             <th class="text-center">Telefone</th>
+                            <th class="text-center">Data de Entrega</th>
                             <th colspan="2" class="text-center">Ações</th>
                         </tr>
                         @foreach($a_user2 as $user)
@@ -31,6 +32,7 @@
                                         <td class="text-center"><span class="badge bg-blue-gradient">{{$s->nome}}</span></td>
                                     @endforeach
                                 <td class="text-center">{{$user->telefone}}</td>
+                                <td class="text-center">{{$user->created_at}}</td>
                                 <td><a href="{{route('usuarios.edit',$user->id)}}" type="button" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span></a> </td>
                                 <td>
                                     <form action="{{route('usuarios.destroy',$user->id)}}" method="POST" >

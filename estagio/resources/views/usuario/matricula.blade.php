@@ -40,7 +40,7 @@
                                     <form class="text-center" action="{{route('setmatricula',$user->id)}}">
                                         @csrf
 
-                                        <button type="submit" class="btn btn-primary">Matricular</button>
+                                        <button type="submit" class="btn btn-primary">Matricular aluno</button>
                                     </form>
                                 </td>
                             </tr>

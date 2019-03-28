@@ -6,6 +6,7 @@ use App\Setor;
 use App\User;
 use function GuzzleHttp\Promise\all;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 
 class UsuarioController extends Controller
@@ -22,13 +23,14 @@ class UsuarioController extends Controller
 
     }
     public function index2(){
-        $a_user2 = User::where('cargo','Estagiário')->paginate(10);
+        $a_user2 = User::where('cargo','Estagiário')
+            ->orderBy('created_at')
+            ->paginate(10);
         return view('usuario.indexe',compact('a_user2'));
     }
     public function create()
     {
         $a_setor=Setor::all();
-
         return view('usuario.create',compact('a_setor'));
     }
 
@@ -123,7 +125,7 @@ class UsuarioController extends Controller
         $user->setors()->attach($setor);
         $user->save();
 
-        return redirect()->route('home');
+        return redirect()->route('home')->with('sucess','Dados atualizados com sucesso');
     }
 
     /**

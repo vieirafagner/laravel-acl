@@ -150,11 +150,6 @@ return [
             'text'    => 'Professor',
             'icon'    => 'user-md',
             'submenu' => [
-                [
-                    'text' => 'Cadastrar Professor',
-                    'url'  => '#',
-                    'icon' => 'user-md',
-                ],
 
                 [
                     'text' => 'Relatório de Professores',
